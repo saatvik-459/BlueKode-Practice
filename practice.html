@@ -1,27 +1,132 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shriya's webpage</title>
+
+    <title>Shriya | My Portfolio</title>
+
     <link rel="stylesheet" href="practice.css">
+    <script src="practice.js" defer></script>
 </head>
-<header>
-    <h1 id="1">My Website</h1>
-</header>
+
 <body>
-    <nav>
-    <a href="index.html">Portfolio</a> 
-    </nav>
-    <h1 id="2"><strong>Shriya Aakrethi Palanivel</strong></h1>
+
+    <header>
+        <h1>Hi, I'm Shriya!</h1>
+        <p>A student exploring technology, leadership and creativity.</p>
+
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#interests">Interests</a>
+            <a href="#skills">My Activities</a>
+            <a href="#contact">Say Hello</a>
+        </nav>
+    </header>
+
     <main>
-        <section>
-            <h2><em>About Me</em></h2>
-            <p id="content">Hi, I am Shriya Aakrethi Palanivel. I am a grade 11 student at <strong>CS Academy.</strong> I have an interest in coding and aspire to learn more and create more. Thank you!</p>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I'm a Class 11 student interested in Computer Science,
+                Artificial Intelligence and Data Science.
+                I enjoy learning new things, organising events,
+                working with people and turning ideas into projects.
+            </p>
+
+            <p>
+                Through MUNs, school initiatives and creative projects,
+                I've developed my communication, teamwork and
+                leadership skills.
+            </p>
+
+            <a class="button-link" href="#interests">
+                Explore My Interests
+            </a>
         </section>
+
+        <section id="interests">
+            <h2>Things I Enjoy</h2>
+
+            <ul>
+                <li>Coding and web development</li>
+                <li>Artificial Intelligence and Data Science</li>
+                <li>Model United Nations and international relations</li>
+                <li>Law, public speaking and debate</li>
+                <li>Photography, editing and creative writing</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>My Activities and Projects</h2>
+
+            <div class="skills">
+
+                <div class="card">
+                    <h3>MUN and Leadership</h3>
+                    <p>
+                        I've participated in MUNs and taken up
+                        chairing, mentoring and Secretariat roles.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>CS Law Summit</h3>
+                    <p>
+                        I founded a school initiative focused on
+                        legal awareness and courtroom simulations.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Girl Up Club</h3>
+                    <p>
+                        I work on student initiatives that encourage
+                        participation, awareness and inclusion.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Creative Projects</h3>
+                    <p>
+                        I enjoy photography, video editing,
+                        scriptwriting and working on creative ideas.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's Interact!</h2>
+
+            <p>Enter your name and let my website greet you.</p>
+
+            <p id="greeting">Welcome to my page!</p>
+            <button id="greet-button" type="button">Say Hello</button>
+
+            <h3>Or introduce yourself!</h3>
+
+            <label for="name-input">Enter your name</label>
+            <input
+                id="name-input"
+                type="text"
+                placeholder="Your name"
+            >
+
+            <button id="welcome-button" type="button">Greet Me</button>
+
+            <p id="welcome-message"></p>
+        </section>
+
     </main>
+
     <footer>
-        <p> 2026 Shriya Aakrethi Palanivel. All rights reserved.</p>
+        <p>Made by Shriya | Learning one step at a time.</p>
     </footer>
+
 </body>
 </html>
